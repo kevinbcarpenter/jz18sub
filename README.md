@@ -49,6 +49,7 @@ About Json/Zmq and application network for financial transactions.
 Here are a couple other projects I reference for ease.
 
 - [ZMQ PP - C++ Interace for libzmq](https://github.com/zeromq/zmqpp)
+- [JSON for Modern C++](https://github.com/nlohmann/json)
 - [SpdLog - Fast header only logger](https://github.com/gabime/spdlog)
 
 
@@ -92,5 +93,10 @@ Conclusion: What does it mean?
 
 
 
-Resources
+#### Resources ####
 [HSM - Hardware Security Module](https://safenet.gemalto.com/data-encryption/hardware-security-modules-hsms)
+Hardware for managing cryptographic keys in a secure environment.
+
+[EMVCO](http://www.emvco.com)
+Europay/Visa/Mastercard Chip specification.
+
