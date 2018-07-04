@@ -1,10 +1,5 @@
 # jz18sub
 ## Json/Zmq 2018 Submission/Details ##
-```
-    So you start a new position and the first question is along the
-    lines of 'we are rebuilding our systems, ZMQ, RabbitMQ, or 
-    Protobuffers which do you like more?' ummmmm let me look?
-```
 
 We are going to walk through using ZMQ and JSON to build a messaging platform which we use to help us process credit card transactions.
 Our structure is made up of a primary daemon as a MCP.  
@@ -96,6 +91,9 @@ Conclusion: What does it mean?
 #### Resources ####
 [HSM - Hardware Security Module](https://safenet.gemalto.com/data-encryption/hardware-security-modules-hsms)
 Hardware for managing cryptographic keys in a secure environment.
+
+[HSM - Wikipedia](https://en.wikipedia.org/wiki/Hardware_security_module)
+More details on HSM's.
 
 [EMVCO](http://www.emvco.com)
 Europay/Visa/Mastercard Chip specification.
