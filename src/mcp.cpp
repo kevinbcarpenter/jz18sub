@@ -1,20 +1,20 @@
 #include <iostream>
 #include <algorithm>
 
-#include <include/zmq.hpp>
+#include <zmq.hpp>
 #include "mcp.h"
 
 using namespace std;
 
-MasterControlProgram::MasterControlProgram( ) {
+MCP::MCP( ) {
 	;
 }
 
-MasterControlProgram::~MasterControlProgram( ) {
+MCP::~MCP( ) {
 	;
 }
 
-void MasterControlProgram::run( ) {
+void MCP::run( ) {
 	IsoCortex::createInstance( getContext( ) );
 	JobSearch::createInstance( getContext( ) );
 
