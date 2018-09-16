@@ -19,6 +19,8 @@ About Json/Zmq and application network for financial transactions.
 
 #### Why ZMQ?  ####
 - Advantages
+- CZMQ
+- ZMQCPP
 
 #### Why json? ####
 - Zmq is all CHAR
@@ -44,6 +46,7 @@ About Json/Zmq and application network for financial transactions.
 Here are a couple other projects I reference for ease.
 
 - [ZMQ PP - C++ Interace for libzmq](https://github.com/zeromq/zmqpp)
+- [CZMQ - High-level C Bindings for ZeroMQ](http://czmq.zeromq.org/)
 - [JSON for Modern C++](https://github.com/nlohmann/json)
 - [SpdLog - Fast header only logger](https://github.com/gabime/spdlog)
 
@@ -89,53 +92,16 @@ Conclusion: What does it mean?
 
 #### Feedback
 ----------------------- REVIEW ---------------------
-The abstract does not do a good job on selling this talk, which might be fairly interesting to the audience.
-
-The github does not contain code, no idea which code will be shown in the presentation. The interfaces of ZMQ are C, but it seems a C++ wrapper was used.
-
-I'm a bit afraid that this talk will only present glue code and few simple use cases of the named libraries in the github repository.
-
-So while I like the Idea of the talk, the abstract does a poor job in clearly representing it.
-
-
------------------------ REVIEW ---------------------
-The subject is interesting and the talk seems like one that many people will be at least technically interested in - although some may have principled objections.
-
-I do wonder in how far you can talk about this without breaking an NDA. You're referring to MC and Visa details, as well as explaining things from your job site. This makes the talk for me a very risky one to accept...
-
-
------------------------ REVIEW ---------------------
-This talk is about performance, security, scalability, redundancy, and refactoring of a legacy code base in the finance world. Awesome. I want to learn about what the speaker did.
-
-However, looking at the abstract, IMHO there is just no way to cover all of that in just one hour in reasonable quality. Three hours would be the minimum.
-
-If the talk gets accepted, I seriously recommend multiple test runs to prune the talk and focus on just a subset of the outlined topics.
-
-
------------------------ REVIEW ---------------------
-Some aspects here are quite fascinating to me. IMHO there is nearly always no justification to re-write a working/production code (non-trivial size) from C++X to C++X++. So it would be very interesting to see at what point the technical debt overwhelmed the costs of refactoring/re-write (and the additional costs of testing and the additional risks of some bugs slipping through).
-
-From the abstract, it seems like the audience needs quite some more context before getting to the core topic.
-
-I can see the work done is not simple - but I don't see how this would be interesting as a 30 or 60 min talk at cppcon.
-
-
------------------------ REVIEW ---------------------
-From what I gather from the outline, this seems to be more of a lessons-learned talk, but I'm not sure how relevant the talk is to C++ overall rather than a message model selection problem. I also feel like this talk is slightly too tailored to a single domain; what can the average C++ developer get from attending this talk?
-
-
------------------------ REVIEW ---------------------
-It is not clear from the title and the abstract how this talk would directly benefit C++ developers. It talked about how JSON is a better choice over XML, and looks like a lot of talking about the background and why. If the focus could be shifted onto more on how C++ was used and the move to C++ 11 and C++ 14, I could see this being an interesting case study.
-
-
------------------------ REVIEW ---------------------
-Recent business requirements have tended to increase the desire for scalable RPC mechanisms. This talk directly addresses those needs by way of implementing the solution in C++. The crux of the talk however appears to be "what we learned while creating/revisiting a scalable RPC solution with respect to serialization" (i.e. XML vs JSON) and there is also some alluding to simplification of the RPC API.
-
-The overall proposal seems to center not on C++ as offering anything new other than the medium in which the solution was created. Discussion of benefiting from C++14 could be a compelling aspect of this talk, but it appears the talk is really about solving/developing a scalable RPC solution rather than anything specific to C++.
-
-
------------------------ REVIEW ---------------------
-I'm not sure if this talk will atract a lot of attendees. There is a lot of financial world's specifics. I know the abbrevations just because I was shortly working next to a team who needed to do a system which was PCI specific. There is not much C++ specifics.
+- The abstract does not do a good job on selling this talk
+- The interfaces of ZMQ are C, but it seems a C++ wrapper was used.
+- how far you can talk about this without breaking an NDA. Referring to MC and Visa details, as well as  job site.
+- I seriously recommend multiple test runs to prune the talk and focus on just a subset of the outlined topics.
+- no justification to re-write a working/production code (non-trivial size) from C++X to C++X++. So it would be very interesting to see at what point the technical debt overwhelmed the costs of refactoring/re-write (and the additional costs of testing and the additional risks of some bugs slipping through).
+- I don't see how this would be interesting as a 30 or 60 min talk at cppcon.
+- more of a lessons-learned talk, but I'm not sure how relevant the talk is to C++ overall; what can the average C++ developer get from attending this talk?
+- If the focus could be shifted onto more on how C++ was used and the move to C++ 11 and C++ 14
+- Discussion of benefiting from C++14 could be a compelling aspect of this talk
+- There is not much C++ specifics.
 
 
 
