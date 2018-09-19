@@ -1,0 +1,18 @@
+{
+    "dumps": {
+        "on": true,
+        "location": "dumps"
+    },
+    "logs": {
+        "location": "logs"
+    },
+    "control": {
+        "host": "127.0.0.1",
+        "port": 9100,
+        "subPort": 9102
+    },
+    "server": {
+        "ip": "127.0.0.1",
+        "zmqPort": 9150
+    }
+}

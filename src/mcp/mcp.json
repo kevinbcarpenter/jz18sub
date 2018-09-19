@@ -1,0 +1,20 @@
+{
+    "dumps": {
+        "on": true,
+        "location": "dumps"
+    },
+    "logs": {
+        "location": "logs"
+    },
+    "server": {
+        "ip": "*",
+        "appPort": 9100,
+        "webPort": 9101,
+        "pubPort": 9102
+    },
+    "timers": {
+        "monitorTime": 30,
+        "downTime": 1,
+        "removeTime": 1
+    }
+}
