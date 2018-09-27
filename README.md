@@ -63,17 +63,6 @@ Quickly: Transactions
 - Will something be cheaper, faster, or better? YES! 
 
 
-#### Feedback
------------------------ REVIEW ---------------------
-- I seriously recommend multiple test runs to prune the talk and focus on just a subset of the outlined topics.
-- I don't see how this would be interesting as a 30 or 60 min talk at cppcon.
-- more of a lessons-learned talk, but I'm not sure how relevant the talk is to C++ overall; what can the average C++ developer get from attending this talk?
-- If the focus could be shifted onto more on how C++ was used and the move to C++ 11 and C++ 14
-- Discussion of benefiting from C++14 could be a compelling aspect of this talk
-- There is not much C++ specifics.
-
-
-
 #### Resources ####
 [HSM - Hardware Security Module](https://safenet.gemalto.com/data-encryption/hardware-security-modules-hsms)
 Hardware for managing cryptographic keys in a secure environment.
